@@ -1,0 +1,291 @@
+@viewport { width: device-width; }
+
+@media only screen and (max-width:768px) {
+
+    section.feature_area {
+        float: none;
+        width: 100%;
+        clear: both;
+        padding-top: 10px;
+    }
+
+    header {
+        width: auto;
+    }
+
+    div.navX {
+        width: 100%;
+    }
+
+    header label {
+        display: block;
+    }
+
+    nav.main-nav {
+        float: none;
+        width: 100%;
+        clear: both;
+        display: none;
+    }
+
+    nav.main-nav a{
+        display: block;
+        border: 1px solid black;
+        width: 100%;
+
+
+    }
+    nav.main-nav label {
+        display: block;
+        cursor: pointer;
+
+    }
+
+    ul.menu2level li > a{
+        /*padding-left: 30px;
+        background-color: black;*/
+        text-align: center;
+    }
+
+    #toggle:checked + nav.main-nav {
+        display: block;
+    }
+
+}
+
+
+@font-face {
+    font-family: 'MaszynaAEG';
+    src: local('MaszynaAEG');
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    /*background-image: url(../Projekt0/Grafika/3d.jpg);*/
+    background-repeat: no-repeat;
+    color: black;
+    margin: 0px auto 20px;
+    padding: 0px;
+    text-align: center;
+    max-width: 1100px;
+    font-family: Times New Roman, Monotype Corsiva, Verdena, Georgia;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/********Nagłówek***********/
+.Header {
+    /*background-image: url(../Projekt0/Grafika/10.jpg);*/
+    border-bottom: thin black solid;
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    line-height: 20%;
+    color: black;
+    font-family: MaszynaAEG;
+    font-size: 20px;
+    font-weight: bold;
+    display: block; /*super zasada dla przeglądarek*/
+    /*opacity: 0.5;*/ /*rozjaśnianie */
+
+}
+
+.csslogin2 {
+    position: absolute;
+    left: 950px;
+    top: 10px;
+    /*border: thin blue solid;*/
+    /*background-color: red;*/
+    height: 100px;
+    width: 200px;
+    text-align:center;
+    font-family: Times New Roman;
+}
+
+.csslogin2 tr, td {
+    width: 200px;
+    border-style: none;
+
+}
+.csslogin2 button {
+    background-color: white;
+    color: black;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*border: 0;*/
+}
+.csslogin2 input {
+    background-color: white;
+    color: black;
+    /*margin: 0;*!*/
+    /*padding: 0;*!*/
+    /*border: 1px;*/
+}
+
+/**************MENU********************/
+.navX {
+    width: 22%;
+}
+
+.main-nav * {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    color: black;
+
+
+}
+.main-nav {
+    float: left;
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+    border-width: 1px;
+    width:100%;
+    background-color:yellow;
+    position: sticky;/*ma stać w miejscu gdy przewijana jest strona*/
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-navCSS li:hover > ul {
+    display: block;
+}
+
+/*ogólne ustawienie klawiszy menu*/
+
+.main-nav a {
+    display: block;
+    padding-left: 20px;
+    background-color: white;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    letter-spacing: 4px;
+    font-family: MaszynaAEG;
+    text-align: left;
+}
+
+.main-nav a:hover {
+    color:#0033cc;
+    /*background-color: white;	*/
+}
+.main-nav a:active {
+    /*background-color: white;*/
+    color: grey;
+}
+/*ustawienia klawiszy menu 2 poziomu*/
+.menu2level li > a{
+    /*padding-left: 30px;
+    background-color: black;*/
+    text-align: right;
+}
+.menu3level li > a{
+    text-align: right;
+}
+
+
+.main-nav-ul ul{
+    display: none !important;
+}
+
+/*podmiana klass*/
+.main-nav-ul li.tap > ul {
+    display: block !important;
+}
+
+.menu2level li.tap2 > ul {
+    display: block !important;
+}
+
+.menu3level li.tap3 > ul {
+    display: block !important;
+}
+/*strzałka rozwijania*/ /*coś nie działa*/
+.main-nav .li-arrow:after{
+    content: '\203A';
+    color: black;
+    float: right;
+    size: 100px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+/*****MENU SMARTFON******/
+label {
+    display: none;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    float: left;
+}
+
+#toggle {
+    display: none !important;
+}
+
+/*//////CENTRUM STRONY////////*/
+.feature_area {
+    /*background-color: gold;*/
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    width: 78%;
+    float: left;
+}
+
+
+.Content {
+    /*background-color: white;*/
+    box-shadow:  -4px 6px 8px 2px #999999, 8px 6px 12px #999999;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 2%;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    width:100%;
+    float: right;
+}
+
+.Content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Content table tr td {
+
+    border-bottom: thin black solid;
+}
+
+.Content tr:hover {
+    background-color: #f5f5f5;}
+.Content tr:nth-child(even) {
+    background-color: #f2f2f2;}
+.Content #addPersonTable{
+    width: 100%;
+    border: none;
+}
+.hs {
+    display: none;
+}
+
+/**************Stopka*****************/
+.Footer  {
+    /*border: thin red solid;*/
+    /*width: 100%;*/
+    background-color: black;
+    text-align: center;
+    color: white;
+    line-height: 10%;
+    clear: both;
+    overflow: hidden;
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+    /*float: left;*/
+}
+
+.Footer p span h4{
+    height: auto;
+}
