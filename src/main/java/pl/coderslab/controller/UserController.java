@@ -1,11 +1,13 @@
 package pl.coderslab.controller;
 
+import org.hibernate.Session;
 import org.mindrot.jbcrypt.BCrypt;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.SessionScope;
 import pl.coderslab.model.User;
 import pl.coderslab.repository.UserRepository;
 
@@ -15,7 +17,7 @@ import javax.validation.Validator;
 ;
 
 @Controller
-//@RequestMapping("/user")
+@RequestMapping("/user")
 @SessionAttributes("userSesion")
 public class UserController {
 
@@ -24,10 +26,10 @@ public class UserController {
     @Autowired
     Validator validator;
     /** Przekazuje do formularza pola login i password obiektu User**/
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
     public String add(Model model ){
         model.addAttribute("user", new User());
-        return "/index";
+        return "../header";
     }
 
 
@@ -45,27 +47,32 @@ public class UserController {
 
         if(usersByEmail==null){
             System.out.println("nie ma takiego urzytkownika");
-            return "forward:/";
+            return "/index";
         }else if(email==null || password==null){
 
             System.out.println("wprowadzi email lub haslo");
-            return "forward:index";
+            return "/index";
         }else if(BCrypt.checkpw(password, aktualneHAslo)){
             System.out.println("Witaj ktos tam");
             userSesion.setAttribute("userSesion", usersByEmail.getId());
             model.addAttribute("imie", imieUrzytkownika);
-            return "forward:index";
+            return "/index";
         } else {
             System.out.println("podaj poprawny email lub haslo");
-            return "forward:index";
+            return "/index";
         }
     }
 
     @RequestMapping("/logout")
-    public String logout(HttpSession userSesion){//@ModelAttribute("userSesion") LinkedList<User> userSesion){
-        userSesion.removeAttribute("userSesion");
+    public String logout(SessionScope userSesion, HttpSession userSesion2){//@ModelAttribute("userSesion") LinkedList<User> userSesion){
+            userSesion.remove("userSesion");
+       // userSesion2.setAttribute("userSesion", null);
+        userSesion2.removeAttribute("userSesion");
+       // userSesion2.removeValue("userSesion");
+        userSesion2.invalidate();
+
         System.out.println("Wylogowano");
-        return "forward:index";
+        return "redirect:/";
     }
 
 

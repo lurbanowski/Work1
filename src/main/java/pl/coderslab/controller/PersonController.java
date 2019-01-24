@@ -80,7 +80,7 @@ public class PersonController {
             return "/person/editSinglePerson";
         }
         personRepository.save(person);
-        return "forward:person/all";
+        return "forward:/person/all";
     }
 
     /**Usuwanie konkretnej osoby(dezaktywacja)**/
