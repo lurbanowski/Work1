@@ -1,5 +1,9 @@
 package pl.coderslab.model;
 
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -17,9 +21,11 @@ public class Document {
     private String type;
     @ManyToMany(fetch = FetchType.EAGER)
     private List<Person> person =  new ArrayList<>();
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date createDate;
     private String path;
     @OneToMany(cascade = CascadeType.PERSIST)
+    @LazyCollection(LazyCollectionOption.FALSE)
     private List<File> files = new ArrayList<>();
 
     public long getId() {

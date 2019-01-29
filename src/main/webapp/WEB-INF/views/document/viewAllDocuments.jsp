@@ -30,50 +30,46 @@
 <section class="feature_area">
     <article class="Content" id="content">
 
-        <h2>Indeks odób w bazie</h2>
+        <h2>Indeks dokumentów</h2>
         <div class="viewPerson">
-            <table >
+            <table>
                 <tr>
                     <td><b>Id</b></td>
-                    <td><b>Imię</b></td>
-                    <td><b>Nazwisko</b></td>
-                    <td><b>Panieńskie</b></td>
-                    <td><b>Osoba żyjąca</b></td>
+                    <td><b>Name</b></td>
+                    <td><b>Type</b></td>
+                    <td><b>Person</b></td>
+                    <td><b>Data utworzenia</b></td>
+                    <%--<td><b>Pliki</b></td>--%>
                 </tr>
-                <c:forEach items="${person}" var="p">
+
+
+                <c:forEach items="${documents}" var="p">
                     <tr>
                         <td>${p.id}</td>
-                        <td>${p.firstName}</td>
-                        <td>${p.lastName}</td>
-                        <td>${p.maiden}</td>
-                        <td>${p.alive}</td>
-                        <td><button data-id='${p.id}' class="test" >Szczególy</button></td>
-                        <td><button onclick="location.href='/person/edit/${p.id}'">Edit</button></td>
-                        <td><button onclick="location.href='/person/delete/${p.id}'">Delete</button></td>
-                        <%--<td><button onclick="$('#content').load('/person/edit/${p.id}')">Edytuj</button></td>--%>
-                        <%--<td><button onclick="$('#content').load('/person/delete/${p.id}')">Usuń</button></td>--%>
+                        <td>${p.name}</td>
+                        <td>${p.type}</td>
+                        <td>${p.person}</td>
+                        <td>${p.createDate}</td>
+                        <%--<td>${p.files}</td>--%>
 
+                        <td><button data-id='${p.id}' class="test" >Pliki</button></td>
+                        <td><button onclick="location.href='/viewGallery/${p.id}'">Podgląd</button></td>
+                        <%--<td><button onclick="location.href='/person/delete/${p.id}'">Delete</button></td>--%>
+                            <%--<td><button onclick="$('#content').load('/person/edit/${p.id}')">Edytuj</button></td>--%>
+                            <%--<td><button onclick="$('#content').load('/person/delete/${p.id}')">Usuń</button></td>--%>
                     </tr>
+
                     <tr id="hiddenSzczegoly${p.id}" class="hs"><td>
-                                    <td>Famili: ${p.family}</td>
-                                    <td>Gender: ${p.gender}</td>
-                                    <td>Documents:
-                                                    <c:forEach items="${p.document}" var="d">
-                                            <tr>
-                                                <td>${d.name}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Type:</td>
-                                                <td>${file.contentType}</td>
-                                            </tr>
-                                            </c:forEach>
+                        cos,s
+                            <%--${p.files.path}${p.files.name}--%>
+                        <c:forEach items="${p.files}" var="d">
+                              <td>Linki: <a href="${d.path}">${d.name}</a></td>
+                        </c:forEach>
+                    </td></tr>
 
-                                     </td>
-                    </tr>
-                    <%--<tr id="hidden2Szczegoly${p.id}" class="hs">--%>
-                    <%----%>
-                    <%--</tr>--%>
+
                 </c:forEach>
+
             </table>
         </div>
 
@@ -83,7 +79,7 @@
                     var z = $(this).data('id');
                     // var y = $(this).data('edit');
                     $('#hiddenSzczegoly'+z).toggleClass("hs");});
-                    // $('#hidden2Szczegoly'+y).toggleClass("hs");
+                // $('#hidden2Szczegoly'+y).toggleClass("hs");
             });
 
             // $(document).ready(function(){

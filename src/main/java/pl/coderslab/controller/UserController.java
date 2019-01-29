@@ -18,7 +18,7 @@ import javax.validation.Validator;
 
 @Controller
 @RequestMapping("/user")
-@SessionAttributes("userSesion")
+//@SessionAttributes("userSesion")
 public class UserController {
 
     @Autowired

@@ -256,8 +256,10 @@ label {
 }
 
 .Content table tr td {
-
     border-bottom: thin black solid;
+}
+.Content td {
+    width: auto;
 }
 
 .Content tr:hover {
@@ -268,6 +270,7 @@ label {
     width: 100%;
     border: none;
 }
+
 .hs {
     display: none;
 }

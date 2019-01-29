@@ -12,6 +12,10 @@
     <a onclick="location.href='/person/all'">INDEX ODÓB</a>
     <%--po zalogowaniu się--%>
     <a onclick="location.href='/person/add'">DODAj OSOBĘ</a>
+    <a onclick="location.href='/document/add'">DODAj DOKUMENT</a>
+    <a onclick="location.href='/document/viewFile'">INDEX DOKUMENT</a>
+    <a onclick="location.href='/file/add'">TEST</a>
+    <a onclick="location.href='/document/viewGallery2'">G</a>
     <a onclick="location.href='/user/registr'">REGISTER</a><%--<input type="button" value="Powrót">--%>
 </nav>
 

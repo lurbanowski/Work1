@@ -12,6 +12,7 @@ public class File {
     private long id;
     @NotNull
     private String name;
+    private String path;
 
     public long getId() {
         return id;
@@ -27,5 +28,13 @@ public class File {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }

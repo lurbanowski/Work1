@@ -21,7 +21,7 @@
 </head>
 <body>
 <header class="Header">
-    <%--<%@include file="../header.jsp"%>--%>
+    <%@include file="../header.jsp"%>
 </header>
 
 <div class="navX">
@@ -49,6 +49,7 @@
                         <td>${p.alive}</td>
                         <td><button data-id='${p.id}' class="test" >Szczególy</button></td>
                         <td><button onclick="location.href='/person/edit/${p.id}'">Edit</button></td>
+                        <td><button onclick="location.href='/person/delete/${p.id}'">Delete</button></td>
                         <%--<td><button onclick="$('#content').load('/person/edit/${p.id}')">Edytuj</button></td>--%>
                         <%--<td><button onclick="$('#content').load('/person/delete/${p.id}')">Usuń</button></td>--%>
 

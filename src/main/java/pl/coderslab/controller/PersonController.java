@@ -3,17 +3,27 @@ package pl.coderslab.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+import pl.coderslab.config.SpringDiApplication;
+import pl.coderslab.model.Document;
 import pl.coderslab.model.Person;
+import pl.coderslab.repository.DocumentRepository;
 import pl.coderslab.repository.PersonRepository;
+
+import javax.servlet.annotation.MultipartConfig;
 import javax.validation.Valid;
 import javax.validation.Validator;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
+
+import static pl.coderslab.config.SpringDiApplication.TMP_FOLDER;
 
 @Controller
 @RequestMapping("/person")
@@ -22,10 +32,14 @@ public class PersonController {
     Validator validator;
    @Autowired
     private PersonRepository personRepository;
+   @Autowired
+   private DocumentRepository documentRepository;
+
+
 
     /**wyciagam wszystkie osoby z bazy i przekazuję do metod JSP**/
-    @ModelAttribute("persons")
-    private List<Person> getPersons(){ return  personRepository.findAll();}
+    @ModelAttribute("dokumenty")
+    private List<Document> getDocument(){ return  documentRepository.findAll();}
 
     /** Przekazuje do widoku formularza pola obiektu Person**/
     @RequestMapping(value = "/add", method = RequestMethod.GET)
@@ -35,14 +49,20 @@ public class PersonController {
     }
 
 
-    /**Odbranie danych z formularza do obiektu book**/
+    /**Odebranie danych z formularza do obiektu book**/
     /**Wyświetlenie wszystkich osób**/
     @RequestMapping(value="/add", method = RequestMethod.POST)
-    public String save(@Valid Person person, BindingResult result){
-
+    public String save(@Valid Person person, BindingResult result,
+                       @RequestParam("file") MultipartFile file,
+                       ModelMap modelMap) throws IOException {
         if(result.hasErrors()){
             return "/person/addPerson";
         }
+     //   modelMap.addAttribute("file", file);
+
+        byte[] bytes = file.getBytes();
+        Path path = Paths.get(TMP_FOLDER + file.getOriginalFilename());
+        Files.write(path, bytes);
         personRepository.save(person);
         return "redirect:all";
     }
@@ -50,7 +70,8 @@ public class PersonController {
     /**wyciągam wszystkie osoby i przekazuje do widoku**/
     @RequestMapping("/all")
     private String all(Model model){
-        List<Person> personList = personRepository.findAll();
+      //  List<Person> personList = personRepository.findAll();
+        List<Person> personList = personRepository.findAllByActiveIsTrue();
         model.addAttribute("person", personList);
         return "/person/personIndex";
     }
@@ -84,19 +105,13 @@ public class PersonController {
     }
 
     /**Usuwanie konkretnej osoby(dezaktywacja)**/
-//    @RequestMapping("/delete/{id}")
-//    public String delete(@PathVariable ("id") Long id){
-//        Person person = personRepository.findOne(id);
-//        person.setStatus(9);
-//        person.setAlive(false);
-//        person.setFamily(true);
-//        person.setFirstName(null);
-//        person.setGender("NN");
-//        person.setLastName(null);
-//        person.setMaiden_name(null);
-//        personRepository.save(person);
-//        return "forward:/person/all";
-//
-//    }
+    @RequestMapping("/delete/{id}")
+    public String delete(@PathVariable ("id") Long id){
+        Person person = personRepository.findOne(id);
+        person.setActive(false);
+        personRepository.save(person);
+        return "forward:/person/all";
+
+    }
 
 }

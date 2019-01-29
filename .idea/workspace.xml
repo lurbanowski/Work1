@@ -7,16 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a9583d-b767-40d0-ac46-54ce3369bb91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/addDocument.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/gallery.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/viewAllDocuments.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/file/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/lg.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/lg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/lg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/fonts/lg.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/gallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/lightgallery-all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/style/lightgallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Hibernate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Hibernate_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hibernate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/addPerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/addPerson.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/editSinglePerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/editSinglePerson.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/config/SpringDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/config/SpringDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/DocumentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/model/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/model/Document.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/model/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/model/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/DocumentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/classes/pl/coderslab/repository/PersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/person/addPerson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/person/addPerson.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/person/personIndex.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/WEB-INF/views/person/personIndex.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/Hibernate-1.0-SNAPSHOT/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/config/SpringDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/config/SpringDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/DocumentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/DocumentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/model/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/model/Document.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/model/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/model/File.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/DocumentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/repository/PersonRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,17 +90,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="work1@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="work1@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="work1@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="work1: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -59,69 +97,73 @@
     <session id="816898285">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.122" value="1" />
+          <entry key="project.open.time.169" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.50" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="java" value="53" />
-          <entry key="jsp" value="31" />
-          <entry key="persons" value="1" />
+          <entry key="css" value="12" />
+          <entry key="documents" value="3" />
+          <entry key="documents_files" value="2" />
+          <entry key="files" value="2" />
+          <entry key="java" value="77" />
+          <entry key="js" value="8" />
+          <entry key="jsp" value="62" />
+          <entry key="md" value="1" />
+          <entry key="persons" value="2" />
           <entry key="sql" value="1" />
           <entry key="users" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="Database Element" value="2" />
-          <entry key="JAVA" value="53" />
-          <entry key="JSP" value="31" />
+          <entry key="CSS" value="12" />
+          <entry key="Database Element" value="10" />
+          <entry key="JAVA" value="77" />
+          <entry key="JSP" value="62" />
+          <entry key="JavaScript" value="8" />
+          <entry key="Markdown" value="1" />
           <entry key="Scratch" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="271" />
-          <entry key="java" value="2184" />
-          <entry key="jsp" value="1799" />
+          <entry key="css" value="331" />
+          <entry key="java" value="4714" />
+          <entry key="js" value="35" />
+          <entry key="jsp" value="3593" />
           <entry key="txt" value="5" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="271" />
-          <entry key="JAVA" value="2184" />
-          <entry key="JSP" value="1799" />
+          <entry key="CSS" value="331" />
+          <entry key="JAVA" value="4714" />
+          <entry key="JSP" value="3593" />
+          <entry key="JavaScript" value="35" />
           <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="30" column="91" lean-forward="true" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,14 +173,89 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/UserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="1065">
+              <caret line="71" column="25" selection-start-line="56" selection-start-column="16" selection-end-line="71" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="41" column="80" selection-start-line="40" selection-start-column="3" selection-end-line="41" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/gallery.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="138" selection-start-line="46" selection-start-column="138" selection-end-line="46" selection-end-column="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/style/lightgallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/lightgallery-all.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -149,6 +266,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Jsp File" />
       </list>
@@ -160,24 +278,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/document.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/PersonRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FileRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/converter/PersonConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/converter/FileConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/converter/DocumentConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/style/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/style/test.css" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/UserRepository.java" />
@@ -188,17 +296,39 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/person.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/in.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/editPerson.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/style/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/addPerson.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/editSinglePerson.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/PersonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/addPerson.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/file/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/viewDocuments.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/model/Place.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/addDocument.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/gallery.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gallery/gallery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/gallery.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/gallery.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/lightgallery.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/lightgallery-all.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/gallery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/style/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/viewAllDocuments.jsp" />
       </list>
     </option>
   </component>
@@ -215,11 +345,49 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Hibernate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="81" />
     <option name="y" value="67" />
     <option name="width" value="1259" />
     <option name="height" value="701" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,6 +492,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,6 +535,26 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hibernate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Work1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="person" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -367,16 +571,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548322892344" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548713831414" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjekZero2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -384,11 +588,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/file" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/style" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/js" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/style" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -491,18 +701,26 @@
       <workItem from="1548148722289" duration="4451000" />
       <workItem from="1548226359553" duration="26578000" />
       <workItem from="1548256783784" duration="20016000" />
-      <workItem from="1548313408610" duration="8492000" />
+      <workItem from="1548313408610" duration="17830000" />
+      <workItem from="1548356081326" duration="9934000" />
+      <workItem from="1548401239301" duration="5797000" />
+      <workItem from="1548484640594" duration="19675000" />
+      <workItem from="1548658067021" duration="14865000" />
+      <workItem from="1548692520743" duration="9685000" />
+      <workItem from="1548743908965" duration="2404000" />
+      <workItem from="1548777041060" duration="2824000" />
+      <workItem from="1548786864205" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59537000" />
+    <option name="totallyTimeSpent" value="134403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2952913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31843576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -513,7 +731,7 @@
       <window_info id="Persistence" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29526916" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29526916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28548124" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,20 +744,20 @@
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32952693" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32952693" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32952693" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32300162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32960895" />
       <window_info anchor="right" id="Database" order="6" weight="0.18994413" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2952913" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29768556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -548,31 +766,31 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Persistence" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32952693" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.13050571" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39967373" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32952693" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.32952693" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29526916" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28548124" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32952693" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="15" visible="true" weight="0.32300162" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.18994413" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.18994413" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960895" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout-to-restore>
   </component>
@@ -582,233 +800,134 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/repository/PersonRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/repository/FileRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="75" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/converter/PersonConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/converter/FileConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/converter/DocumentConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7250b413-8123-4758-abf7-6df52e58d83f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/menu.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="13" column="55" lean-forward="true" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7250b413-8123-4758-abf7-6df52e58d83f/schema/work1/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/filtr/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret selection-end-line="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="156">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://7250b413-8123-4758-abf7-6df52e58d83f/schema/work1/table/persons">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="272" column="1" selection-start-line="272" selection-start-column="1" selection-end-line="272" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="62" lean-forward="true" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/addPerson.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="54" />
+        <state relative-caret-position="215">
+          <caret line="74" column="25" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="74" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/file/test.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="827" selection-start-line="827" selection-end-line="827" />
+        <state relative-caret-position="660">
+          <caret line="44" column="29" selection-start-line="39" selection-start-column="18" selection-end-line="44" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.7.RELEASE/spring-webmvc-4.3.7.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/FileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="242">
+          <caret line="50" column="33" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="50" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="354">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/Place.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="53" />
+        <state relative-caret-position="666">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp">
+    <entry file="das://7250b413-8123-4758-abf7-6df52e58d83f/schema/work1/table/documents_files" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/addDocument.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="403">
+          <caret line="88" column="58" selection-start-line="88" selection-start-column="58" selection-end-line="88" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/editSinglePerson.jsp">
+    <entry file="das://7250b413-8123-4758-abf7-6df52e58d83f/schema/work1/table/documents" />
+    <entry file="das://7250b413-8123-4758-abf7-6df52e58d83f/schema/work1/table/files" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="345">
+          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/model/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/gallery.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox-master/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox-master/dist/imagelightbox.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox-master/src/imagelightbox.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox-master/src/imagelightbox.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox-master/dist/imagelightbox.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4096" selection-start-column="4096" selection-end-column="4096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/imagelightbox.min.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/imagelightbox.min.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10063" selection-start-column="10063" selection-end-column="10063" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/repository/DocumentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/DocumentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3915">
+          <caret line="261" column="15" selection-start-line="261" selection-start-column="15" selection-end-line="261" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/viewAllDocuments.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -819,24 +938,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/registerUserForm.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/person/personIndex.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="1065">
+          <caret line="71" column="25" selection-start-line="56" selection-start-column="16" selection-end-line="71" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="91" lean-forward="true" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+        <state relative-caret-position="240">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/document/gallery.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="690">
+          <caret line="46" column="138" selection-start-line="46" selection-start-column="138" selection-end-line="46" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/SpringDiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/style/lightgallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/lightgallery-all.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="41" column="80" selection-start-line="40" selection-start-column="3" selection-end-line="41" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

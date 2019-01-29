@@ -19,7 +19,7 @@
 </head>
 <body>
 <header class="Header">
-    <%--<%@include file="../header.jsp"%>--%>
+    <%@include file="../header.jsp"%>
 </header>
 
 <div class="navX">
@@ -28,7 +28,7 @@
 <section class="feature_area">
     <article  id="content">
         <div class="formPerson">
-            <form:form method="post" modelAttribute="person" >
+            <form:form method="post" modelAttribute="person">
                 <form:errors path="*" cssClass="errorblock" element="div"/>
                 <table id="addPersonTable">
                     <tr>
@@ -66,7 +66,12 @@
                     </tr>
                     <tr>
                         <td>Documenty:</td>
-                        <td><input type="file" name="file" /></td>
+                       <td>
+                           <form:select path="document" >
+                            <form:option value="" label="Wybierz dokument"/>
+                            <form:options items="${dokumenty}"/>
+                        </form:select>
+                       </td>
                     </tr>
                     <%--<tr>--%>
                         <%--<td>Członek rodziny:</td>--%>
