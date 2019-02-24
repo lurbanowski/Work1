@@ -54,10 +54,13 @@
                         <%--<td><button onclick="$('#content').load('/person/delete/${p.id}')">Usuń</button></td>--%>
 
                     </tr>
-                    <tr id="hiddenSzczegoly${p.id}" class="hs"><td>
-                                    <td>Famili: ${p.family}</td>
-                                    <td>Gender: ${p.gender}</td>
-                                    <td>Documents:
+                    <tr id="hiddenSzczegoly${p.id}" class="hs">
+
+                                <td>
+                                    <table>
+                                    <tr>  <td>Famili: ${p.family}</td></tr>
+                                    <tr> <td>Gender: ${p.gender}</td></tr>
+                                    <tr> <td>Documents:
                                                     <c:forEach items="${p.document}" var="d">
                                             <tr>
                                                 <td>${d.name}</td>
@@ -68,7 +71,10 @@
                                             </tr>
                                             </c:forEach>
 
-                                     </td>
+                                    </td></tr>
+                                    </table>
+                                </td>
+
                     </tr>
                     <%--<tr id="hidden2Szczegoly${p.id}" class="hs">--%>
                     <%----%>

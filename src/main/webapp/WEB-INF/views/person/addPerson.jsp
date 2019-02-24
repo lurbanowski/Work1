@@ -68,8 +68,8 @@
                         <td>Documenty:</td>
                        <td>
                            <form:select path="document" >
-                            <form:option value="" label="Wybierz dokument"/>
-                            <form:options items="${dokumenty}"/>
+                            <%--<form:option value="" label="Wybierz dokument"/>--%>
+                            <form:options items="${dokumenty}" itemValue="id" itemLabel="name"/>
                         </form:select>
                        </td>
                     </tr>

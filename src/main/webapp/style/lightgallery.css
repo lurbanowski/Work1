@@ -987,6 +987,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     margin-bottom: 15px;
     margin-right: 20px;
     width: 200px;
+    height: 120px;
 }
 .demo-gallery > ul > li a {
   border: 3px solid #FFF;

@@ -14,6 +14,9 @@
     <title>Urbanowscy</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../style/style.css" >
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 </head>
@@ -33,7 +36,8 @@
             <form:form method="post" modelAttribute="dokument" enctype="multipart/form-data">
                 <form:errors path="*" cssClass="errorblock" element="div"/>
                 <h2>NOWY DOKUMENT</h2>
-                <table id="addPersonTable">
+                <tr id="addPersonTable">
+                <table>
                     <tr>
                         <td>Name:</td>
                         <td><form:input path="name"/></td>
@@ -49,7 +53,7 @@
                         <td>
                             <form:select path="person" >
                                 <form:option value="" label="Wybierz osobę"/>
-                                <form:options items="${persons}"/>
+                                <form:options items="${persons}" itemValue="id" itemLabel="id"/>
                             </form:select>
                         </td>
                     </tr>
@@ -58,49 +62,40 @@
                         <td><form:input type="date" path="createDate" /></td>
                         <td><form:errors path="createDate" cssClass="error"/></td>
                     </tr>
-                    <%--<tr>--%>
-                        <%--<td>Path:</td>--%>
-                        <%--<td><form:input path="path" /><td>--%>
-                        <%--<td><form:errors path="path" /></td>--%>
-                    <%--</tr>--%>
-                    <%--<tr>--%>
-                        <%--<td>File:</td>--%>
-                        <%--<td><form:input type="file" path="files" /><td>--%>
-                        <%--<td><form:errors path="files" /></td>--%>
-                    <%--</tr>--%>
-                    <tr>
-                        <td>File name:</td>
-                        <td><input type="text" name="name" /><td>
-                    </tr>
+
+
                     <tr>
                         <td>File:</td>
-                        <td><input type="file" name="file" /><td>
+                        <td><input type="file" name="file"/></td>
+                        <td><button type="button" data-id='1' class="test" >Kolejny</button></td>
                     </tr>
-                    <tr>
-                        <td>File name:</td>
-                        <td><input type="text" name="name" /><td>
-                    </tr>
-                    <tr>
+
+                    <tr id="hiddenSzczegoly1" class="hs">
                         <td>File:</td>
-                        <td><input type="file" name="file" /><td>
+                        <td><input type="file" name="file"/></td>
+                        <td><button type="button" data-id='2' class="test">Kolejny</button></td>
                     </tr>
-                    <tr>
-                        <td>File name:</td>
-                        <td><input type="text" name="name" /><td>
-                    </tr>
-                    <tr>
+                    <tr id="hiddenSzczegoly2" class="hs">
                         <td>File:</td>
-                        <td><input type="file" name="file" /><td>
+                        <td><input type="file" name="file"/></td>
                     </tr>
-                    <tr>
-                        <td></td>
+                   <tr>
+                       <td></td>
                         <td><input type="submit" name="Save"  onclick="location.href='/'"></td>
                     </tr>
 
                 </table>
             </form:form>
         </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.test').click(function(e){
+                    var z = $(this).data('id');
 
+                    $('#hiddenSzczegoly'+z).toggleClass("hs");});
+
+            });
+        </script>
 
     </article>
 </section>

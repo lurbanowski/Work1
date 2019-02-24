@@ -16,6 +16,7 @@ import pl.coderslab.repository.PersonRepository;
 
 import javax.validation.Valid;
 import java.io.IOException;
+import java.nio.file.FileAlreadyExistsException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -36,14 +37,13 @@ public class DocumentController {
     private DocumentRepository documentRepository;
 
     /**wyciagam wszystkie osoby z bazy i przekazuję do metod JSP**/
-    @ModelAttribute("pesrons")
+    @ModelAttribute("persons")
     private List<Person> getPerson(){ return  personRepository.findAllByActiveIsTrue();}
 
     /**wyciagam wszystkie file z bazy i przekazuję do metod JSP**/
     @ModelAttribute("plik")
     private List<File> getFile(){
        return new ArrayList<>();
-
     }
 
     /** Przekazuje do widoku formularza pola obiektu Document**/
@@ -53,15 +53,13 @@ public class DocumentController {
         return "/document/addDocument";
     }
 
-
-
     /**Odebranie danych z formularza do obiektu book**/
     /**Wyświetlenie wszystkich osób**/
     @RequestMapping(value="/add", method = RequestMethod.POST)
     public String save(@Valid Document document, BindingResult result,
                        @RequestParam("file") MultipartFile[] file,
                        @RequestParam List<String> name
-                      ) throws IOException {
+                      ) throws IOException, FileAlreadyExistsException {
         if(result.hasErrors()){
             return "/document/addDocument";
         }
@@ -69,13 +67,17 @@ public class DocumentController {
         Files.createDirectory(Paths.get(p)); //tworzenie nowego folderu na pliki
         List<File> lf = new ArrayList<>();
         for(int i=0;i<file.length;i++){ //petla na kilka plikow
+            if(file[i].isEmpty()) {
+            break;
+            }else{
            byte[] bytes = file[i].getBytes();
-            Path path = Paths.get(p );
+            Path path = Paths.get(p + file[i].getOriginalFilename());
             Files.write(path, bytes);
             File f = new File();
             f.setName(name.get(i));
             f.setPath(path.toString());
             lf.add(f);
+        }
         }
         document.setFiles(lf);
         document.setPath(p);

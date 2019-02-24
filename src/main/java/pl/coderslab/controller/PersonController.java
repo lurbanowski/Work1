@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 
 import static pl.coderslab.config.SpringDiApplication.TMP_FOLDER;
@@ -53,16 +54,18 @@ public class PersonController {
     /**Wyświetlenie wszystkich osób**/
     @RequestMapping(value="/add", method = RequestMethod.POST)
     public String save(@Valid Person person, BindingResult result,
-                       @RequestParam("file") MultipartFile file,
+                      // @RequestParam("file") MultipartFile file,
                        ModelMap modelMap) throws IOException {
         if(result.hasErrors()){
             return "/person/addPerson";
         }
      //   modelMap.addAttribute("file", file);
 
-        byte[] bytes = file.getBytes();
-        Path path = Paths.get(TMP_FOLDER + file.getOriginalFilename());
-        Files.write(path, bytes);
+//        byte[] bytes = file.getBytes();
+//        Path path = Paths.get(TMP_FOLDER + file.getOriginalFilename());
+//        Files.write(path, bytes);
+       // List<Document> ld = (List<Document>) file;
+       // person.setDocument((List<Document>) file);
         personRepository.save(person);
         return "redirect:all";
     }
@@ -88,7 +91,7 @@ public class PersonController {
     @RequestMapping(value = "/edit/{id}", method = RequestMethod.GET)
     public String edit(@PathVariable ("id") Long id, Model model){
         Person person = personRepository.findOne(id);
-        model.addAttribute("person", new Person());
+        model.addAttribute("person", person);
         return "/person/editSinglePerson";
     }
 

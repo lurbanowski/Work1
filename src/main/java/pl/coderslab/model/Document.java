@@ -83,4 +83,17 @@ public class Document {
     public void setFiles(List<File> files) {
         this.files = files;
     }
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", person=" + person +
+                ", createDate=" + createDate +
+                ", path='" + path + '\'' +
+                ", files=" + files +
+                '}';
+    }
 }

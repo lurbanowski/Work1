@@ -66,6 +66,17 @@
                         <td><form:input path="maiden" /><td>
                         <td><form:errors path="maiden"/></td>
                     </tr>
+                    <tr>
+                        <td>Dokumenty:</td>
+                        <%--<td><form:input path="document" /><td>--%>
+                        <%--<td><form:errors path="maiden"/></td>--%>
+                        <td>
+                            <form:select path="document" >
+                                <%--<form:option value="" label="Wybierz dokument"/>--%>
+                                <form:options items="${dokumenty}" itemValue="id" itemLabel="name"/>
+                            </form:select>
+                        </td>
+                    </tr>
                     <tr><td><input type="submit" name="Save"></td></tr>
                 </table>
             </form:form>

@@ -65,9 +65,9 @@ public class UserController {
 
     @RequestMapping("/logout")
     public String logout(SessionScope userSesion, HttpSession userSesion2){//@ModelAttribute("userSesion") LinkedList<User> userSesion){
-            userSesion.remove("userSesion");
+     //      userSesion.remove("userSesion"); //może to
        // userSesion2.setAttribute("userSesion", null);
-        userSesion2.removeAttribute("userSesion");
+      //  userSesion2.removeAttribute("userSesion"); //może to
        // userSesion2.removeValue("userSesion");
         userSesion2.invalidate();
 

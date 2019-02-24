@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -18,6 +19,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.List;
 
 import static pl.coderslab.config.SpringDiApplication.TMP_FOLDER;
 
@@ -26,6 +28,9 @@ import static pl.coderslab.config.SpringDiApplication.TMP_FOLDER;
 public class FileController {
     @Autowired
     private FileRepository fileRepository;
+
+    @ModelAttribute("file")
+    public List<File> getFile(){ return fileRepository.findAll();}
 
     /** Przekazuje do widoku formularza pola obiektu Person**/
     @RequestMapping(value = "/add", method = RequestMethod.GET)
@@ -51,6 +56,12 @@ public class FileController {
         Files.write(path, bytes);
         fileRepository.save(f);
         return "/index";
+    }
+
+    @RequestMapping("/show")
+    public String show(Model model){
+
+        return "";
     }
 
 }
